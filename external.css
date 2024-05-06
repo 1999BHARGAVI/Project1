@@ -96,13 +96,13 @@ body:hover>.barnav {
 
 #part1-nav1 {
     width: 80vw;
-    
+    padding-left: 150px;
     font-size: 1.5rem;
     border: 2px solid black;
-    margin-left: 40px;
+    margin-left: 50px;
     height: 100px;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 #part1-nav1>a {
