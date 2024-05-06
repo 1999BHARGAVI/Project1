@@ -91,11 +91,14 @@ body:hover>.barnav {
 }
 
 #part1-nav1 {
-    width: 70%;
-    padding-left: 150px;
+    width: 80vw;
+    padding-left: 350px;
     font-size: 1.5rem;
     border: 2px solid black;
-    padding-left: 0px;
+    margin-left: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
 }
 
 #part1-nav1>a {
