@@ -94,6 +94,8 @@ body:hover>.barnav {
     width: 70%;
     padding-left: 150px;
     font-size: 1.5rem;
+    border: 2px solid black;
+    padding-left: 0px;
 }
 
 #part1-nav1>a {
