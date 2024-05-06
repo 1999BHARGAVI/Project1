@@ -1,0 +1,1809 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.part1 {
+
+    width: 100%;
+    height: 700px;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg"), url("./images/education-online-books.png");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* -webkit-clip-path: polygon(0 0,130% 0%, 0 180%, 0 0);
+    clip-path: polygon(0 0,130% 0%,0 180%,0 0);  */
+
+    clip-path: polygon(0 0, 130% 0, 0 180%, 0 0);
+    filter: brightness(0.6);
+
+}
+
+.barnav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+    margin-top: -1160px;
+    position: relative;
+    top: 0;
+
+
+
+
+}
+
+body:hover>.barnav {
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+#barnav-nav {
+    width: 30%;
+    padding-left: 300px;
+}
+
+#imgg {
+    /* z-index: 1; */
+    position: relative;
+    top: -10vh;
+
+}
+
+.imgbooks {
+    margin-left: 900px;
+    margin-top: -650px;
+
+
+
+}
+
+#iconbook {
+
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: -20px;
+    margin: 2px;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+#ebookname {
+    padding-right: 1000px;
+    z-index: 1;
+}
+
+#barnav-nav>a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-style: normal;
+    color: orange;
+
+}
+
+#barnav-nav>a:hover {
+    color: white;
+}
+
+#part1-nav1 {
+    width: 70%;
+    padding-left: 150px;
+    font-size: 1.5rem;
+}
+
+#part1-nav1>a {
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* To perform hover on part1-nav1 */
+#part1-nav1>a:hover {
+    color: red;
+}
+
+/* To apply these properties on download button */
+#downloadbutton {
+    font-size: 1.5rem;
+    color: red;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 15px;
+    border-width: 3px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* To apply on download button hover to click on action is background properties */
+#downloadbutton:hover {
+    background-color: orangered;
+    background-image: url("./images/cloud_download_FILL0_wght600_GRAD200_opsz48.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+
+
+
+}
+
+/* To apply body on overflow-y :scroll */
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* To apply the position sticky,bg color,padding,top for on body */
+
+.part1-headings {
+    margin-left: 90px;
+    padding: 90px;
+    font-size: 2rem;
+    color: black;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.anchortag {
+
+    margin: 15px;
+    padding: 20px;
+    margin-left: -10px;
+
+}
+
+#anchortag1 {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#anchortag2:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.part1-reviews {
+    width: 60%;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+
+}
+
+#imgs {
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+#imgs1 {
+    margin-left: -20px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+
+}
+
+#imgs2 {
+    margin-left: -20px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+
+}
+
+#imgs3 {
+    margin-left: -20px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+
+}
+
+#part1-review-span {
+    font-size: 3rem;
+    padding: 80px;
+
+}
+
+#ratingnumbers {
+    font-size: 1.5rem;
+}
+
+#plain star {
+    height: 200px;
+}
+
+.part1-headings {
+
+    width: 50%;
+
+    position: relative;
+    top: 60px;
+
+}
+
+/* part2 details css */
+
+.part2 {
+
+    width: 100%;
+    height: 900px;
+    display: flex;
+    padding: 300px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+
+}
+
+#part2-img {
+
+    width: 1000px;
+    height: 600px;
+    background-image: url("./images/tablet-screen-contents\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 700px;
+
+}
+
+.part2-headings {
+    width: 1200px;
+    height: 600px;
+    margin-left: 50px;
+
+}
+
+#h1tagsize-part2 {
+    font-size: 3.5rem;
+}
+
+.paragraph-part2 {
+    font-size: 1.5rem;
+}
+
+.part3 {
+
+    width: 100%;
+    height: 1000px;
+    position: relative;
+
+}
+
+.part3-content-d1:hover>#a-span {
+    background-color: brown;
+
+}
+
+.part3>h1,
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#part3-h2tag {
+    color: orange;
+    font-size: 2rem;
+}
+
+#part3-h1tag {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.part3-divs {
+    display: flex;
+
+
+    padding: 40px;
+    padding-left: 200px;
+    height: 1000px;
+}
+
+.part3-box {
+    border: 4px solid red;
+    width: 45%;
+    height: 650px;
+    margin-left: 10px;
+    border-radius: 10%;
+    padding: 50px;
+    position: sticky;
+    top: 0px;
+
+
+}
+
+.part3-box>a {
+    font-size: 2rem;
+    color: black;
+
+
+
+}
+
+.part3-box>span {
+    opacity: 1;
+}
+
+#a-span,
+#a-span0,
+#a-span1,
+#a-span2,
+#a-span3,
+#a-span4 {
+    border: 1px solid rgba(0, 136, 255, 0.02);
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(0, 136, 255, 0.055);
+    opacity: 0.7;
+    width: 100px;
+    padding: 20px;
+    border-width: 10px;
+    margin-left: 20px;
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+
+#a-span0,
+#a-span1 {
+    padding-right: 30px;
+
+}
+
+#a-span2,
+#a-span3 {
+    padding-right: 150px;
+
+}
+
+#a-span3:hover {
+    background-color: red;
+    color: black;
+
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 15px;
+    border-width: 10px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 150px;
+    font-size: 1.5rem;
+
+}
+
+#a-span2:hover {
+    background-color: red;
+    color: black;
+
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 15px;
+    border-width: 10px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 150px;
+    font-size: 1.5rem;
+
+}
+
+#a-span1:hover {
+    background-color: red;
+    color: black;
+
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 15px;
+    border-width: 10px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size: 1.5rem;
+
+}
+
+#a-span0:hover {
+    background-color: red;
+    color: black;
+
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 15px;
+    border-width: 10px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size: 1.5rem;
+
+}
+
+#a-span {
+    background-color: red;
+    color: black;
+
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 15px;
+    border-width: 10px;
+    margin-left: 20px;
+    padding-left: 100px;
+    padding-right: 110px;
+    font-size: 2rem;
+
+}
+
+.part3-content {
+
+    width: 900px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+.h1tag {
+
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+    padding-top: 15px;
+    background-color: rgba(0, 136, 255, 0.23);
+}
+
+.h1-ebook {
+    padding: 45px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part3-content-d1>p {
+    padding: 15px;
+    font-size: 2rem;
+    font-style: oblique;
+    padding-left: 50px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+}
+
+.left::after {
+    border-bottom: 10px dotted;
+    content: "";
+    flex: 1;
+}
+
+.main {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.main>.main1 {
+
+    width: 40%;
+    height: 350px;
+    background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border-radius: 20%;
+}
+
+.main>.main2 {
+
+    width: 40%;
+    height: 350px;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border-radius: 20%;
+    margin-left: 20px;
+}
+
+.tabbook {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.tabbook>.tabbook1 {
+
+    width: 50%;
+    height: 350px;
+    background-image: url("./images/tablet-screen-contents\ \(1\).jpg");
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    background-size: contain;
+
+}
+
+.tabbook>.tabbook2 {
+
+    width: 50%;
+    height: 350px;
+
+    background-repeat: no-repeat;
+    background-size: 500px;
+
+    margin-left: 10px;
+
+}
+
+.tabbook2>p {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.content-d1 {
+
+    width: 90%;
+    height: 500px;
+    margin-left: 50px;
+    background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+}
+
+
+
+.part4 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin-top: 200px;
+
+}
+
+.part4 .part4-img {
+    width: 50%;
+    height: 600px;
+    background-image: url("./images/circle-scatter-haikei.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+
+}
+
+.part4 .part4-content {
+    width: 50%;
+    height: 600px;
+
+}
+
+.abcd {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 350px;
+    border: 15px solid rgba(255, 166, 0, 0.619);
+}
+
+.part4-content {
+    padding: 80px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#part4-content-h1 {
+    font-size: 1.8rem;
+    color: rgba(255, 166, 0, 0.55);
+}
+
+.part5 {
+
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    font-size: 2rem;
+
+
+}
+
+.part5>h2 {
+    color: rgba(255, 166, 0, 0.649);
+}
+
+.reviews {
+    margin: 20px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+
+}
+
+.review1 {
+
+    width: 25%;
+    height: 650px;
+    margin-left: 240px;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+    filter: brightness(0.7);
+    border-radius: 20%;
+
+}
+
+#img1 {
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-top: -500px;
+    margin-left: -280PX;
+    z-index: 1;
+}
+
+.review1>#backroundimg1 {
+
+    width: 250px;
+    height: 300px;
+    margin-left: 130px;
+    background-color: rgba(255, 0, 0, 0.646);
+    border-radius: 10%;
+
+}
+
+#rating {
+
+    margin-top: -200px;
+    margin-left: -160px;
+    color: white;
+    z-index: 1;
+    padding: 2px;
+}
+
+.part1-review-span {
+    margin-top: 100px;
+    margin-left: -300px;
+    color: orange;
+    z-index: 1;
+}
+
+#numberrating {
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+}
+
+#ratingpara {
+
+    width: 300px;
+    height: 250px;
+    flex-wrap: wrap;
+    padding: -50px;
+    z-index: 1;
+    color: white;
+    margin-left: -200px;
+    margin-top: 450px;
+}
+
+.review2 {
+
+    width: 25%;
+    height: 650px;
+    margin-left: 150px;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+    filter: brightness(0.7);
+    border-radius: 20%;
+
+}
+
+#img2 {
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-top: -500px;
+    margin-left: -280PX;
+    z-index: 1;
+}
+
+.review2>#backroundimg2 {
+
+    width: 250px;
+    height: 300px;
+    margin-left: 130px;
+    background-color: rgba(255, 0, 0, 0.646);
+    border-radius: 10%;
+
+}
+
+#rating1 {
+
+    margin-top: -200px;
+    margin-left: -140px;
+    color: white;
+    z-index: 1;
+    padding: 5px;
+}
+
+.part1-review-span1 {
+    margin-top: 100px;
+    margin-left: -300px;
+    color: orange;
+    z-index: 1;
+}
+
+#numberrating1 {
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+}
+
+#ratingpara1 {
+
+    width: 300px;
+    height: 250px;
+    flex-wrap: wrap;
+    padding: -50px;
+    z-index: 1;
+    color: white;
+    margin-left: -200px;
+    margin-top: 450px;
+}
+
+.review3 {
+
+    width: 25%;
+    height: 650px;
+    margin-left: 155px;
+    background-image: url("./images/businessman-sitting-by-table-cafe\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+    filter: brightness(0.7);
+    border-radius: 20%;
+
+
+}
+
+#img3 {
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-top: -500px;
+    margin-left: -280PX;
+    z-index: 1;
+}
+
+.review3>#backroundimg3 {
+
+    width: 250px;
+    height: 300px;
+    margin-left: 130px;
+    background-color: rgba(255, 0, 0, 0.646);
+    border-radius: 10%;
+
+
+}
+
+#rating2 {
+
+    margin-top: -200px;
+    margin-left: -160px;
+    color: white;
+    z-index: 1;
+    padding: 5px;
+}
+
+.part1-review-span2 {
+    margin-top: 100px;
+    margin-left: -300px;
+    color: orange;
+    z-index: 1;
+}
+
+#numberrating2 {
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+}
+
+#ratingpara2 {
+
+    width: 300px;
+    height: 250px;
+    flex-wrap: wrap;
+    padding: -50px;
+    z-index: 1;
+    color: white;
+    margin-left: -200px;
+    margin-top: 450px;
+}
+
+.footer-part6 {
+    border: 0.1px solid white;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255, 166, 0, 0.561);
+    background-image: linear-gradient(to bottom right, white 25%, orange 25%);
+    margin-left: 20px;
+
+}
+
+.footer-part6-inputs {
+
+    width: 32%;
+    height: 700px;
+    margin-top: -800px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 10px 10px orangered;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.footer-part6-inputs>h1 {
+    font-size: 5rem;
+    padding: 50px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+#inputname {
+    border: 2px solid black;
+    font-size: 2rem;
+    margin-left: 30px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+input {
+    font-size: 2rem;
+    margin-left: 80px;
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid orange;
+
+
+}
+
+.user {
+
+    width: 20px;
+    margin-top: -50px;
+    margin-left: 450px;
+    visibility: hidden;
+
+}
+
+.inputs:hover .user {
+    visibility: visible;
+}
+
+input:hover {
+    border: 3px solid red;
+}
+
+button {
+    font-size: 2rem;
+    margin-left: 150px;
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid orange;
+    font-weight: bolder;
+    background-color: rgba(255, 166, 0, 0.552);
+
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+
+}
+
+.footer-part6-contact {
+    width: 50%;
+    height: 200px;
+
+    margin-left: 900px;
+    margin-top: 300px;
+    height: 600px;
+
+}
+
+.footer-part6-contact h3 {
+    color: orangered;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.footer-part6-contact h1 {
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.footer-part6-contact h4 {
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    padding-top: 20px;
+}
+
+iframe {
+    visibility: hidden;
+    margin-left: 600px;
+}
+
+a:hover iframe {
+    visibility: visible;
+}
+
+a:hover h4 {
+    color: orangered;
+}
+
+.font-icons {
+    display: flex;
+}
+
+.icons1 {
+
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: orangered;
+
+}
+
+/*It can be  write media  queries on mobile device we use to
+ min-width:320px and max-width:480px  */
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    body {
+        
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .part1 {
+        width: 100vw;
+        height: 800px;
+        -webkit-clip-path: polygon(0 0, 145% 0%, 0 160%, 0 0);
+        clip-path: polygon(0 0, 145% 0%, 0 160%, 0 0);
+    }
+
+    .part1-reviews {
+        width: 100vw;
+        height: 390px;
+        display: flex;
+        background-image: linear-gradient(to top left, white 67%, orange 67%);
+        margin-top: -100px;
+        
+    }
+
+    #imgs {
+        margin-left: 30px;
+        margin-top: 200px;
+        border-radius: 50%;
+        border: 8px solid white;
+        width: 70px;
+        height: 70px;
+
+
+    }
+
+    #imgs1 {
+        margin-left: -20px;
+        margin-top: 200px;
+        border-radius: 50%;
+        border: 8px solid white;
+        width: 70px;
+        height: 70px;
+
+    }
+
+    #imgs2 {
+        margin-left: -20px;
+        margin-top: 200px;
+        border-radius: 50%;
+        border: 8px solid white;
+        width: 70px;
+        height: 70px;
+
+    }
+
+    #imgs3 {
+        margin-left: -30px;
+        margin-top: 200px;
+        border-radius: 50%;
+        border: 8px solid white;
+        width: 70px;
+        height: 70px;
+
+
+    }
+
+    .barnav {
+        width: 100vw;
+        height: 380px;
+        margin-top: -1260px;
+        display: flex;
+        position: relative;
+        top: 0;
+
+
+    }
+
+    body:hover>.barnav {
+
+        background-color: transparent;
+    }
+
+    #barnav-nav {
+        width: 30%;
+        padding-left: 300px;
+        margin-top: 290px;
+
+
+    }
+
+    #iconbook {
+
+        border-radius: 50%;
+        margin-left: -200px;
+        padding: 3px;
+        padding-left: 10px;
+        font-size: 30px;
+        
+
+    }
+
+    #ebook {
+        font-size: 30px;
+    }
+
+    #downloadbutton {
+        font-size: 1rem;
+        padding: 5px;
+        border-width: 3px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: -15px;
+        flex-wrap: wrap;
+    }
+
+    #part1-nav1 {
+        width: 250px;
+        height: 250px;
+
+        font-size: 2rem;
+        flex-direction: column;
+
+        padding: 20px;
+        margin-top: 610px;
+        margin-left: -230px;
+    }
+
+    .part1-headings {
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 1rem;
+        
+        height: 250px;
+        width: 310px;
+        margin-top: 190px;
+
+    }
+
+    #imgg {
+
+        position: relative;
+        top: -10vh;
+        width: 250px;
+        height: 350px;
+        
+
+    }
+
+    .imgbooks {
+        margin-left: 30px;
+        margin-top: -500px;
+
+    }
+
+    .part1-reviews {
+        display: block;
+
+
+    }
+
+    #part1-review-span {
+        font-size: 2rem;
+        padding: -10px;
+
+    }
+
+    #ratingnumbers {
+        padding-left: 80px;
+
+    }
+
+    .part2 {
+
+        width: 100vw;
+        height: 720px;
+        display: block;
+        margin-top: 596px;
+        
+
+    }
+
+    #part2-img {
+
+        width: 200px;
+        height: 230px;
+        
+        margin-left: -100px;
+        margin-top: -250px;
+
+    }
+
+    .part2-headings {
+        width: 100vw;
+        height: 400px;
+        margin-left: -100px;
+        
+        flex-wrap: wrap;
+    }
+
+    #h1tagsize-part2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .paragraph-part2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #h1tagsizee-part2 {
+        text-align: center;
+    }
+
+    .part3 {
+
+        width: 100vw;
+        height: 2000px;
+        position: relative;
+        
+
+    }
+
+    #part3-h1tag {
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+
+    #part3-h2tag {
+        color: orange;
+        font-size: 1.5rem;
+    }
+
+    .part3-divs {
+        padding: 40px;
+        padding-left: 50px;
+        width: 100vw;
+        height: 750px;
+
+
+    }
+
+    .part3-box {
+
+        width: 90vw;
+        height: 600px;
+        margin-left: -25px;
+    }
+
+    #a-span {
+        background-color: red;
+        color: black;
+        border: 2px solid red;
+        border-radius: 30px;
+        padding: 10px;
+        border-width: 10px;
+        margin-left: -38px;
+        padding-left: 70px;
+        padding-right: 70px;
+        font-size: 1rem;
+
+    }
+
+    #a-span0,
+    #a-span1,
+    #a-span2,
+    #a-span3,
+    #a-span4 {
+
+
+        margin-top: -20px;
+        padding: 10px;
+        border-width: 10px;
+        margin-left: -38px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 1rem;
+
+    }
+
+    #a-span2,
+    #a-span3 {
+        padding-right: 80px;
+
+    }
+
+
+
+    #a-span3:hover {
+        background-color: red;
+        color: black;
+
+        border: 2px solid red;
+        border-radius: 30px;
+        padding: 17px;
+        border-width: 0px;
+        margin-left: -38px;
+        padding-left: 10px;
+        padding-right: 90px;
+        font-size: 1rem;
+
+    }
+
+    #a-span2:hover {
+        background-color: red;
+        color: black;
+
+        border: 2px solid red;
+        border-radius: 30px;
+        padding: 10px;
+        border-width: 10px;
+        margin-left: -30px;
+        padding-left: 10px;
+        padding-right: 60px;
+        font-size: 1rem;
+
+    }
+
+    #a-span1:hover {
+        background-color: red;
+        color: black;
+
+        border: 2px solid red;
+        border-radius: 30px;
+        padding: 10px;
+        border-width: 10px;
+        margin-left: -38px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 1rem;
+
+    }
+
+    #a-span0:hover {
+
+        background-color: red;
+        color: black;
+        border: 2px solid red;
+        border-radius: 30px;
+        padding: 10px;
+        border-width: 10px;
+        margin-left: -38px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 1rem;
+
+    }
+
+    .part3-content {
+        width: 100vw;
+        height: 1215px;
+        
+        margin-left: -42px;
+        overflow: hidden;
+        margin-top: 60px;
+        overflow-y: scroll;
+
+    }
+
+    .part3-divs {
+        display: block;
+        border: 2px solid block;
+        padding: 40px;
+        padding-left: -150px;
+        height: 1000px;
+    }
+
+    .h1tag {
+
+        width: 200px;
+        height: 250px;
+        margin-left: 60px;
+        padding-top: 15px;
+        background-color: rgba(0, 136, 255, 0.23);
+    }
+
+    .h1-ebook {
+        padding: 45px;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .part3-content-d1>p {
+        padding: 15px;
+        font-size: 1.5rem;
+        font-style: oblique;
+        padding-left: 50px;
+    }
+
+    .wrap {
+        display: flex;
+    }
+
+    .left {
+        flex: 1;
+        display: flex;
+    }
+
+    .left::after {
+        border-bottom: 10px dotted;
+        content: "";
+        flex: 1;
+    }
+
+    .main {
+
+        width: 700px;
+        height: 750px;
+        display: block;
+        margin-left: 20px;
+        
+        margin: 20px;
+
+    }
+
+    .tabbook {
+
+        width: 100vw;
+        height: 500px;
+        display: block;
+        
+        margin-left: 5px;
+    }
+
+    .tabbook>.tabbook1 {
+
+        width: 90vw;
+        height: 250px;
+
+    }
+
+    .tabbook>.tabbook2 {
+
+        width: 100vw;
+        height: 250px;
+    
+        margin-left: -5px;
+
+    }
+
+    .content-d1 {
+
+        width: 200px;
+        height: 150px;
+        margin-left: 50px;
+        background-image: url("./images/portrait-mature-smiling-authoress-sitting-desk.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10%;
+    }
+
+    .part4 {
+        width: 100vw;
+        height: 790px;
+        display: block;
+        margin-top: 90px;
+        
+
+    }
+
+    .part4 .part4-img {
+        width: 50%;
+        height: 700px;
+        background-image: url("./images/circle-scatter-haikei.png");
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain;
+
+    }
+
+
+
+    .abcd {
+        width: 200px;
+        height: 200px;
+        margin-top: 80px;
+        margin-left: 100px;
+
+    }
+
+    .part4-content {
+
+        font-size: 1rem;
+        
+        margin-top: -400px;
+    }
+
+    .part4 .part4-content {
+        width: 100vw;
+        height: 450px;
+
+    }
+
+    .part5 {
+
+        width: 100vw;
+        height: 1000px;
+        text-align: center;
+        font-size: 1rem;
+        
+
+    }
+
+    .reviews {
+
+        width: 100vw;
+        display: block;
+        align-items: center;
+        margin-left: 100px;
+        position: relative;
+
+    }
+
+    .review1 {
+
+        width: 80vw;
+        height: 350px;
+        margin-left: -60px;
+        margin-top: 20px;
+
+    }
+
+    #img1 {
+        border-radius: 50%;
+        border: 10px solid white;
+        width: 70px;
+        height: 70px;
+        position: relative;
+        top: -280px;
+        margin-left: -200px;
+    }
+
+    .review1>#backroundimg1 {
+
+        width: 150px;
+        height: 150px;
+        margin-left: 60px;
+
+
+    }
+
+    #rating {
+
+        margin-top: -150px;
+        margin-left: -80px;
+        position: absolute;
+        top: 250px;
+    }
+
+    .part1-review-span {
+        margin-top: 100px;
+        margin-left: -110px;
+        color: orange;
+        position: absolute;
+        top: 60px;
+        
+        flex-direction: column;
+    }
+
+
+    #numberrating {
+        font-size: 2rem;
+        
+
+    }
+
+    #ratingpara {
+
+        width: 200px;
+        height: 100px;
+        flex-wrap: wrap;
+        padding: -50px;
+        color: white;
+        margin-left: -20px;
+        margin-top: -130px;
+        
+        position: absolute;
+        top: 350px;
+    }
+
+    .review2 {
+
+
+        width: 80vw;
+        height: 350px;
+        margin-left: -60px;
+        margin-top: 20px;
+
+
+    }
+
+    #img2 {
+        border-radius: 50%;
+        border: 10px solid white;
+        width: 70px;
+        height: 70px;
+        position: relative;
+        top: -280px;
+        margin-left: -200px;
+
+
+    }
+
+    .review2>#backroundimg2 {
+
+        width: 150px;
+        height: 150px;
+        margin-left: 60px;
+
+    }
+
+    #rating1 {
+        margin-top: -150px;
+        margin-left: -70px;
+        position: absolute;
+        top: 630px;
+    }
+
+
+    .part1-review-span2 {
+        margin-top: 350px;
+        margin-left: -120px;
+        color: orange;
+        position: absolute;
+        top: 210px;
+        
+        padding-left: 40px;
+
+    }
+
+    #numberrating1 {
+        
+        margin-top: -100px;
+        position: absolute;
+        top: 100px;
+        margin-left: -35px;
+        font-size: 2rem;
+    }
+
+    #ratingpara1 {
+
+        width: 200px;
+        height: 100px;
+        flex-wrap: wrap;
+        padding: -50px;
+        color: white;
+        margin-left: -20px;
+        margin-top: -130px;
+    
+        position: absolute;
+        top: 750px;
+    }
+
+    .review3 {
+
+        width: 80vw;
+        height: 350px;
+        margin-left: -60px;
+        margin-top: 20px;
+    }
+
+    #img3 {
+        border-radius: 50%;
+        border: 10px solid white;
+        width: 70px;
+        height: 70px;
+        position: relative;
+        top: -280px;
+        margin-left: -200px;
+
+    }
+
+    .review3>#backroundimg3 {
+
+        width: 150px;
+        height: 150px;
+        margin-left: 60px;
+
+
+    }
+
+    #rating2 {
+        margin-top: 250px;
+        margin-left: -80px;
+        position: absolute;
+        top: 630px;
+
+
+
+    }
+
+    .part1-review-span3 {
+        margin-top: 730px;
+        margin-left: -120px;
+        color: orange;
+        position: absolute;
+        top: 210px;
+        
+        padding-left: 40px;
+
+
+    }
+
+    #numberrating2 {
+        font-size: 2rem;
+    }
+
+    #ratingpara2 {
+
+        width: 200px;
+        height: 100px;
+        flex-wrap: wrap;
+        padding: -50px;
+        color: white;
+        margin-left: -20px;
+        margin-top: -130px;
+        
+        position: absolute;
+        top: 1150px;
+
+    }
+
+    .footer-part6 {
+        border: 0.1px solid white;
+        width: 100vw;
+        height: 500px;
+        margin-left: 5px;
+        margin-top: 300px;
+        
+
+    }
+
+    .footer-part6-inputs {
+
+        width: 80vw;
+        height: 330px;
+        margin-top: -400px;
+        margin-left: 35px;
+        
+    }
+
+    .footer-part6-inputs>h1 {
+        font-size: 1.3rem;
+
+    }
+
+    /*
+#inputname{
+    border:2px solid black;
+    font-size: 2rem;
+    margin-left: 30px;
+    border-radius: 20px;
+    height: 30px;   
+}
+*/
+    input {
+        font-size: 1rem;
+        margin-left: 30px;
+        padding: 6px;
+        border-radius: 30px 30px 30px 30px;
+        border: 2px solid orange;
+        margin-top: -30px;
+
+    }
+
+
+
+button {
+    font-size: 1rem;
+    margin-left: 50px;
+    padding: 10px;
+
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+
+}
+
+.footer-part6-contact {
+    width: 100vw;
+    height: 100px;
+
+    margin-left: -1px;
+    margin-top: 500px;
+    height: 600px;
+    background-color: rgba(255, 166, 0, 0.985);
+    
+}
+
+.footer-part6-contact h3 {
+
+    font-size: 2rem;
+}
+
+.footer-part6-contact h1 {
+
+    font-size: 2rem;
+
+}
+
+.footer-part6-contact h4 {
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+
+a:hover h4 {
+    color: orangered;
+}
+
+.font-icons {
+    display: flex;
+}
+
+.icons1 {
+
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: orangered;
+
+}
+}
